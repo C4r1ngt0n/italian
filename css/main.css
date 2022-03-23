@@ -1,5 +1,5 @@
 body{
-  background-image: url(/img/background_body.png);
+  background-image: url(./img/background_body.png);
 }
 @media (max-width:1200px) {
   body{
@@ -7,7 +7,7 @@ body{
   }
   #hero{
     background-color: var(--primary-color);
-    background-image: url(/img/bg_mobile.png);
+    background-image: url(./img/bg_mobile.png);
     background-size: cover;
   }
   #slide{
@@ -23,7 +23,7 @@ body{
     background-image: none !important;
   }
   #footer{
-    background-image: url(/img/footerbg-mobile.jpg) !important;
+    background-image: url(./img/footerbg-mobile.jpg) !important;
     background-repeat: repeat;
   }
   #galery-mobile{
@@ -35,7 +35,7 @@ body{
 
 }
 .bg-hero{
-  background-image: url(/img/spaghetii.png);
+  background-image: url(./img/spaghetii.png);
   height: 100%;
   background-repeat: no-repeat;
   background-position: center;
