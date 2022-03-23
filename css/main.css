@@ -1,0 +1,182 @@
+body{
+  background-image: url(/img/background_body.png);
+}
+@media (max-width:1200px) {
+  body{
+    background-image:none;
+  }
+  #hero{
+    background-color: var(--primary-color);
+    background-image: url(/img/bg_mobile.png);
+    background-size: cover;
+  }
+  #slide{
+    display:none;
+  }
+  #asd{
+    display: none;
+  }
+  #carouselExampleControls{
+    width: 100% !important;
+  }
+  .galery-slide{
+    background-image: none !important;
+  }
+  #footer{
+    background-image: url(/img/footerbg-mobile.jpg) !important;
+    background-repeat: repeat;
+  }
+  #galery-mobile{
+    display: 
+  }
+}
+@media (min-width:1200px)
+{
+
+}
+.bg-hero{
+  background-image: url(/img/spaghetii.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.primary-color-template{
+  background-color: var(--primary-color-template);
+}
+.button-template{
+  background-color: var(--primary-color-template);
+  border: 1px;
+  border-radius: 0rem !important;
+  padding: 1rem !important;
+  width: 200px !important;
+  color: #000000 !important;
+  font-weight: bold;
+  border-color: white;
+}
+
+.font-family-2{
+  font-family: 'Fredericka the Great';
+  font-size: 6rem;
+}
+.section-title{
+    margin: 100px 0 0px 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.section-title-font{
+    font-family: 'Montserrat', sans-serif;
+}
+.section-title-font-bold{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+
+
+#hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-slogan1{
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+.button-52 {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-52:after {
+    content: "";
+    background-color: var(--primary-color);
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+  
+  .button-52:hover:after {
+    top: 0px;
+    left: 0px;
+  }
+  .button-52-white {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-52-white:after {
+    content: "";
+    background-color: #ffffff;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+  
+  .button-52-white:hover:after {
+    top: 0px;
+    left: 0px;
+  }
+  .button-53 {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-53:after {
+    content: "";
+    background-color: var(--primary-color);
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+  
+  .button-53:hover:after {
+    top: 0px;
+    left: 0px;
+  }

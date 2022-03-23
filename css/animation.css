@@ -1,0 +1,49 @@
+
+@-ms-keyframes danie1 { 
+    from { 
+        -ms-transform: rotate(0deg);
+        -ms-transform: scaleZ(0deg); 
+    } to { 
+        -ms-transform: rotate(360deg); 
+        -ms-transform: scaleZ(100deg);
+    }
+}
+@-moz-keyframes danie1 { 
+    from { 
+        -moz-transform: rotate(0deg); 
+    } to { 
+        -moz-transform: rotate(360deg); 
+    }
+}
+@-webkit-keyframes danie1 { 
+    from { 
+        -webkit-transform: rotate(0deg); 
+    } to { 
+        -webkit-transform: rotate(360deg); 
+    }
+}
+@keyframes danie1 { 
+    0% { 
+        transform: scale(1.0) ;
+    } 
+    50% { 
+        transform: scale(1.1);  
+    }
+    100%{
+        transform: scale(1.0) ;
+    }
+}
+    #danie1:hover {
+        animation-duration: 1s;
+        animation-name: danie1;
+        animation-iteration-count: infinite;
+    }
+    #danie2:hover {
+        animation-duration: 1s;
+        animation-name: danie1;
+    }
+    #danie3:hover {
+        animation-duration: 1s;
+        animation-name: danie1;
+    }
+    
